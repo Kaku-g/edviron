@@ -1,0 +1,35 @@
+.data{
+    display: flex;
+    margin-left:100px;
+    font-family:'Poppins';
+    column-gap: 40px;
+}
+
+.data-item{
+    display: flex;
+    flex-direction: column;
+    
+    background:white;
+    padding:20px 20px;
+    width:250px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.data-heading{
+    color: #9197b3;
+}
+
+.value-items{
+    display: flex;
+    justify-content: space-between !important;
+    align-items: end;
+    font-size: 12px;
+}
+
+.data-value{
+    font-size: 27px;
+    font-weight: 600;
+}
