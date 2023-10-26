@@ -138,6 +138,7 @@ input{
 .payments{
     display: flex;
     column-gap: 50px;
+    margin-bottom: 20px;
 
 }
 .payment_history{

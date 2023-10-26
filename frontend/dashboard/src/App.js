@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import React, { useEffect } from "react";
 import "./App.css";
 import Sidebar from "./components/sidebar/Sidebar";
 import Stats from "./components/stats/Stats";
@@ -10,6 +11,9 @@ import Dashboard from "./components/Pages/Dashboard";
 import Disburse from "./components/Pages/Disburse";
 
 function App() {
+  useEffect(() => {
+    document.body.style.zoom = "100%";
+  }, []);
   return (
     <Router>
       <div className="App">
