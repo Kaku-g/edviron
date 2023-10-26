@@ -1,5 +1,5 @@
-import logo from "./logo.svg";
 import React, { useEffect } from "react";
+import logo from "./logo.svg";
 import "./App.css";
 import Sidebar from "./components/sidebar/Sidebar";
 import Stats from "./components/stats/Stats";
