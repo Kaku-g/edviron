@@ -50,14 +50,14 @@
   .sidebar-footer{
     position: absolute;
     bottom:0;
-   margin-left:30px;
+    margin-left:20px;
     display: flex;
     justify-content: space-evenly;
     padding-bottom: 20px;
   }
   .sidebar-footer .chevron-down{
     position: relative;
-    margin-left: 40px;
+    margin-left: 30px;
   }
   .sidebar-footer-subheading{
     color: var(--light);
