@@ -49,7 +49,21 @@ const getData = async () => {
     .find({ _id: { $in: dues } })
     .toArray();
 
-  console.log(students);
+  return students;
+
+  //console.log(students);
 };
 
-getData();
+module.exports.handler = async (event) => {
+  const list = await getData();
+  return {
+    statusCode: 200,
+    body: JSON.stringify(
+      {
+        defaulters: list,
+      },
+      null,
+      2
+    ),
+  };
+};

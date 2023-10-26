@@ -6,9 +6,16 @@ import Promo from '../icons/prom.svg';
 import Wallet from '../icons/wallet.svg';
 import User from '../icons/user.svg';
 import Cube from '../icons/cube.svg';
-import Key from '../icons/key-square.svg'
+import Key from '../icons/dashboard.svg';
+import { Route, Link, Routes, useLocation } from "react-router-dom";
+
 
 const Sidebar = () => {
+
+
+ const location = useLocation();
+ const {pathname}= location;
+  const splitlocation=pathname.split('/');
   return (
     <div className="side-menu">
 
@@ -22,14 +29,17 @@ const Sidebar = () => {
             </div>
           <div className="overlap-3">
             <div className="list-menu-wrapper">
-              <div className="list-menu active">
+            <a href='/' style={{color:'inherit',textDecoration:'none'}}>
+              <div className={splitlocation[1]===''?"active list-menu":"list-menu"} >
                 <img
                   className="img-2"
                   alt="Icon outline key"
+                  style={{width:'30px',height:'30px'}}
                   src={Key}
                 />
-                <div className="side-text-wrapper">Dashboard</div>
+               <div className="side-text-wrapper">Dashboard</div>
               </div>
+              </a>
             
             <div className="list-menu">
               <img className="img-2" alt="Element square" src={Cube} />
@@ -49,15 +59,17 @@ const Sidebar = () => {
                 src="https://c.animaapp.com/LNadpEK0/img/chevron-right-2-4.svg"
               />
             </div>
-            <div className="list-menu">
+            <a href="/disburse" style={{color:'inherit',textDecoration:'none'}}>
+            <div className={splitlocation[1]==='disburse'?'active list-menu':'list-menu'} >
               <img className="img-2" alt="Wallet money" src={Wallet} />
-              <div className="sidebar-text-wrapper">Disbursal</div>
+            <div className="sidebar-text-wrapper">Disbursal</div>
               <img
                 className="chevron-right"
                 alt="Chevron right"
                 src="https://c.animaapp.com/LNadpEK0/img/chevron-right-2-4.svg"
               />
             </div>
+            </a> 
             <div className="list-menu">
               <img
                 className="img-2"

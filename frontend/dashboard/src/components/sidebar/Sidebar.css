@@ -19,8 +19,11 @@
   }
 
   .active{
-    background: #5932EA;
+    background: var(--dark);
     border-radius: 30px;
+    width: 13vw;
+    padding:15px ;
+    
     
     color: white !important;
   }
@@ -57,7 +60,7 @@
     margin-left: 40px;
   }
   .sidebar-footer-subheading{
-    color: #9197b3;
+    color: var(--light);
   }
   .ellipse{
     margin: 0 20px;
@@ -71,18 +74,18 @@
 
   .list-menu{
   
-    color: #9197b3;
+    color: var(--light);
     display: flex;
     align-items: center;
     font-size: 18px;
     width: 13vw;
-    color: #9197b3;
+    color: var(--light);
    padding: 15px;
    padding-left: 30px;
   }
 
-  .list-menu:hover {
-    background: #5932EA;
+  .list-menu:hover  {
+    background: var(--dark);
     border-radius: 30px;
     
     color: white !important;
@@ -91,7 +94,7 @@
 
   }
   .list-menu:active{
-    background: #5932EA;
+    background: var(--dark);
     border-radius: 30px;
     
     color: white !important;
@@ -99,7 +102,7 @@
 
   .side-text-active{
 
-    color: #9197b3;
+    color: var(--light);
     font-family: "Poppins", Helvetica;
     font-size: 14px;
     font-weight: 500;

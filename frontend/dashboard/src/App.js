@@ -5,19 +5,25 @@ import Stats from "./components/stats/Stats";
 import Data from "./components/data/Data";
 import Trends from "./components/Chart/Chart";
 import Footer from "./components/Footer/Footer";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Dashboard from "./Dashboard";
+import Disburse from "./components/Pages/Disburse";
 
 function App() {
   return (
-    <div className="App">
-      <Sidebar />
-      <div className="main">
-        <div className="main-heading">DAV Public School,Bhilai</div>
-        <Stats />
-        <Data />
-        <Trends />
-        <Footer />
+    <Router>
+      <div className="App">
+        <Sidebar />
+
+        <Switch>
+          <div className="main">
+            <div className="main-heading">DAV Public School,Bhilai</div>
+            <Route path="/" exact component={Dashboard} />
+            <Route path="/disburse" component={Disburse} />
+          </div>
+        </Switch>
       </div>
-    </div>
+    </Router>
   );
 }
 

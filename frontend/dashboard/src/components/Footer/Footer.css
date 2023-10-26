@@ -50,7 +50,7 @@
 }
 
 .left-footer .column1-heading{
-    color: #9197b3;
+    color: var(--light);
 
 }
 .line-break{
@@ -80,10 +80,10 @@
 }
 
 .column1-heading{
-    color: #9197b3;
+    color: var(--light);
 }
 .column2-heading{
-    color: #9197b3;
+    color: var(--light);
     margin-bottom: 20px;
 }
 
@@ -113,7 +113,7 @@ right footer starts here
     align-items: center;
 }
 .heading{
-    color: #9197b3;
+    color: var(--light);
 }
 .right-footer-columns-headings{
     display: flex;

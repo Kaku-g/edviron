@@ -1,0 +1,175 @@
+.disburse{
+    display: flex;
+    flex-direction: column;
+}
+
+.stats_text{
+    display: flex;
+    justify-content: center;
+}
+
+ .disburse_stats{
+    background-color: white;
+    border-radius: 20px;
+    margin:0 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.disburse_stats_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.accounts_details{
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    width:500px;
+    align-items: center;
+    
+}
+.accounts_subhead{
+    display: flex;
+    column-gap: 30px;
+    font-size: 25px;
+}
+
+.accounts{
+    display: flex;
+    margin-top: 20px;
+    font-size: 20px;
+    column-gap: 60px;
+    
+
+    
+}
+.students{
+    background-color: white;
+    width:400px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+   height:150px;
+    font-size: 20px;
+    align-items: center;
+}
+.total{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.accounts>div{
+    padding-left: 50px;
+}
+.account_heading{
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 55px;
+    margin-top: 20px;
+}
+
+
+.main_account{
+    display: flex;
+    column-gap: 50px;
+}
+.options{
+    font-size: 20px;
+    display: flex;
+    align-self: center;
+
+}
+.amtlabel{
+    display: flex;
+    align-self: center;
+}
+form{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    
+    height:400px;
+    width:400px;
+    border-radius: 20px;
+    background-color: white;
+    padding:20px
+
+    
+}
+.disburse_form_heading{
+    margin-left: 55px;
+    font-weight: 500;
+}
+label{
+    font-size: 20px;
+    margin-right: 10px;
+}
+input{
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 3px solid var(--dark);
+    border-radius: 10px;
+    font-size: 20px;
+
+
+}
+.btn{
+    width:200px;
+    border:none;
+    background-color:var(--dark);
+    padding:20px ;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+   
+    align-self: center;
+    margin-top: 20px;
+    
+}
+.payments{
+    display: flex;
+    column-gap: 50px;
+
+}
+.payment_history{
+    margin-top: 80px;
+    background-color: white;
+    width:700px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    align-items: center;
+}
+.payment_history .headings{
+    display: flex;
+    column-gap: 150px;
+    font-size: 20px;
+}
+.payment_history_columns{
+    display: flex;
+    column-gap: 150px;
+    font-size: 18px;
+    padding-bottom: 10px;
+    
+}
+.payment_history_column{
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.history_status{
+    margin-top: 2px;
+}
+.downicon{
+
+}

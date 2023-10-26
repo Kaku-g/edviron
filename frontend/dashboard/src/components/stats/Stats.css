@@ -29,7 +29,7 @@
 }
 
 .stats-heading{
-    color: #9197b3;
+    color: var(--light);
     
 }
 
