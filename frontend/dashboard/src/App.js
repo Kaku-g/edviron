@@ -6,7 +6,7 @@ import Data from "./components/data/Data";
 import Trends from "./components/Chart/Chart";
 import Footer from "./components/Footer/Footer";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Dashboard from "./Dashboard";
+import Dashboard from "./components/Pages/Dashboard";
 import Disburse from "./components/Pages/Disburse";
 
 function App() {
