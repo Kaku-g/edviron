@@ -23,8 +23,8 @@
   .active{
     background: var(--dark);
     border-radius: 30px;
-    width: 13vw;
-    padding:15px ;
+    /* width: 13vw;
+    padding:15px ; */
     
     
     color: white !important;
@@ -83,7 +83,7 @@
     width: 13vw;
     color: var(--light);
    padding: 10px;
-padding: auto;  }
+   padding: auto;  }
 
   .list-menu:hover  {
     background: var(--dark);
