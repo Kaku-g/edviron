@@ -83,7 +83,8 @@
     width: 13vw;
     color: var(--light);
    padding: 10px;
-   padding: auto;  }
+   margin-bottom: 10px;;
+    }
 
   .list-menu:hover  {
     background: var(--dark);
