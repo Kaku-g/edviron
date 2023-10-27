@@ -67,7 +67,13 @@ console.log(data.stats);
 
 const Disburse = () => {
   return (
-    <div className="disburse">
+    <div
+      className="disburse"
+      style={{
+        transform: "scale(0.8)",
+        transformOrigin: "top left",
+      }}
+    >
       <div className="disburse_stats">
         {data.stats.map((el) => {
           return (

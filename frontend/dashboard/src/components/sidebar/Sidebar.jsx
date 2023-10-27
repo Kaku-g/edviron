@@ -17,7 +17,10 @@ const Sidebar = () => {
  const {pathname}= location;
   const splitlocation=pathname.split('/');
   return (
-    <div className="side-menu">
+    <div className="side-menu"
+    style={{
+      
+    }}>
 
 <div className="logo-container">
               <div className="logo-content">

@@ -1,6 +1,5 @@
 .side-menu {
-    height: 100vh;
-  
+    height: 100vh auto;
     padding-left: 10px;
     display: flex;
     flex-direction: column;
@@ -8,12 +7,15 @@
     width: 20vw;
     background: white;
   }
+  body{
+    /* zoom:80%; */
+  }
 
   .logo-content{
 
     display: flex;
     align-items: center;
-    margin-left: 70px;
+    padding-left:8% ;
     margin-top: 30px;
     justify-content: start
   }
@@ -34,7 +36,7 @@
   .logo-text{
     font-family: 'Poppins';
     font-weight: 700;
-    font-size: 25px;
+    font-size: 20px;
  
   }
   .logo-v{
@@ -48,16 +50,16 @@
   }
 
   .sidebar-footer{
+    font-size: 12px;
     position: absolute;
     bottom:0;
-    margin-left:20px;
     display: flex;
     justify-content: space-evenly;
     padding-bottom: 20px;
   }
   .sidebar-footer .chevron-down{
     position: relative;
-    margin-left: 30px;
+    margin-left: 10px;
   }
   .sidebar-footer-subheading{
     color: var(--light);
@@ -77,12 +79,11 @@
     color: var(--light);
     display: flex;
     align-items: center;
-    font-size: 18px;
+    font-size: 14px;
     width: 13vw;
     color: var(--light);
-   padding: 15px;
-   padding-left: 30px;
-  }
+   padding: 10px;
+padding: auto;  }
 
   .list-menu:hover  {
     background: var(--dark);
@@ -137,10 +138,10 @@
   }
 
   .ellipse{
-    width:42px;
-    height:42px;
+    width:30px;
+    height:30px;
   }
   .chevron-down{
-    width:42px;
-    height:42px;
+    width:30px;
+    height:30px;
   }

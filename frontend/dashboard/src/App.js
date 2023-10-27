@@ -12,7 +12,7 @@ import Disburse from "./components/Pages/Disburse";
 
 function App() {
   useEffect(() => {
-    document.body.style.zoom = "100%";
+    // document.body.style.zoom = "75%";
   }, []);
   return (
     <Router>
